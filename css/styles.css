@@ -2,41 +2,87 @@
 --primary-text-color:#757575;
 --title-text-color:#212121;
 --accent-color:#2196F3;
---privary-bgn-color:#FFFFFF;
+--primary-white-color:#FFFFFF;
 }
 body {
     color: var(--primary-text-color);
-    background-color: var(--privary-bgn-color);
+    background-color: var(--primary-white-color);
 }
 
 
 /* стилізуєм лого */
-.accent {
+.logo {
     color: var(--accent-color);
+}
+.logo-part {
+    color: #000000;
 }
 .list {
     list-style: none;
 }
 /* nav */
-.site-nav .link:hover,
-.site-nav .link:focus {
+.link {
+    color: var(--primary-text-color);
+}
+.link-nav {
+    color: var(--title-text-color)
+}
+.site-nav .link-nav:hover,
+.site-nav .link-nav:focus {
     color: var(--accent-color);
 }
-.site-nav .link.current {
+.site-nav .link-nav.current {
     color: var(--accent-color);
 }
-.auth .link:hover,
-.auth .link:focus {
+.contacts .link:hover,
+.contacts .link:focus {
     color: var(--accent-color);
 }
-
+.hero {
+    background-color: #2F303A;
+}
+/* hero h1 */
+.hero-title {
+    color: var(--primary-white-color);    
+}
+/* button */
+.button.basic {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.button.basic:active {
+    background-color: #188CE8;
+}
 /* заголовки  */
 .section-title {
+    color: var(--title-text-color)
+}
+.title {
     color: var(--title-text-color);
 }
-
-/*color h #212121 */
-/*color text #757575 */
-/*active, hover #2196F3 */
-/*butoon text #FFFFFF */
-/* blak #000000 */
+/* section team */
+.section-team {
+    background-color: #F5F4FA;
+}
+/* footer */
+.footer {
+    background-color: #2F303A;
+}
+.part {
+    color: var(--primary-white-color);
+}
+.footer-map {
+    color: var(--primary-white-color);
+}
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+/* filter */
+.button.second {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+.button.second:active {
+    color: var(--primary-white-color);
+    background-color: #2196F3;
+}
