@@ -7,15 +7,18 @@
 body {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
+    font-family: Roboto, sans-serif;
 }
 
 
 /* стилізуєм лого */
 .logo {
     color: var(--accent-color);
+    font-family: Raleway, sans-serif;
 }
 .logo-part {
     color: #000000;
+    font-family: Raleway, sans-serif;
 }
 .list {
     list-style: none;
@@ -50,7 +53,8 @@ body {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
-.button.basic:active {
+.button.basic:hover,
+.button.basic:focus {
     background-color: #188CE8;
 }
 /* заголовки  */
@@ -74,15 +78,24 @@ body {
 .footer-map {
     color: var(--primary-white-color);
 }
+.footer-map:hover,
+.footer-map:focus {
+    color: var(--accent-color)
+}
 .footer-link {
     color: rgba(255, 255, 255, 0.6);
+}
+.footer-link:hover,
+.footer-link:focus {
+    color: var(--accent-color)
 }
 /* filter */
 .button.second {
     color: var(--title-text-color);
     background-color: #F5F4FA;
 }
-.button.second:active {
+.button.second:hover,
+.butoon.sekond:focus {
     color: var(--primary-white-color);
     background-color: #2196F3;
 }
